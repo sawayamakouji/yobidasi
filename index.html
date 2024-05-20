@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音声による商品検索デモ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="voice-search">
+            <button id="startButton">音声入力開始</button>
+            <div id="statusMessage"></div>
+            <h2>検索結果:</h2>
+            <div id="result"></div>
+        </div>
+        <div class="product-list">
+            <h2>商品リスト</h2>
+            <ul id="productList">
+                <!-- 商品リストがここに動的に挿入されます -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice-search, .product-list {
+    width: 48%;
+}
+
+#startButton {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#statusMessage, #result, h2 {
+    font-size: 1.5em;
+}
+
+#productList li {
+    font-size: 1.2em;
+}
